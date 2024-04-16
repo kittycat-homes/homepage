@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["three"],
+  output: "export",
+  basePath: "",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
