@@ -2,7 +2,7 @@
 export default function Title() {
   return (
     <div className="">
-      <figure className="dark:hidden flex max-h-svh aspect-square">
+      <figure className="dark:hidden flex max-h-svh">
         <img
           alt="a planet with rings that say kittycats rule teh world forevah"
           className="w-full object-scale-down"
